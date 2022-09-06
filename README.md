@@ -1,23 +1,16 @@
-# Great Places - Photo App
+# great_places_app
 
-A Mobile Dart/Flutter App that allows you to use your camera to take a picture of where you are and attach a GPS location to it, which will then provide you with an address as well. Store all your favorite places and exactly where you took that picture!
+A new Flutter project.
 
-## Tech/Features
+## Getting Started
 
-- Local storage usage for in-app photos using Paths, Path_Provider, and Sqflite.
-- Attached SQLite Database for iOS and Android compatibility for local device storage.
-- Uses Native Camera feature to snap photos.
-- Uses Google Maps for current location (Native GPS) and latitude/longitude of where the picture was taken.
-- Accesses GoogleMaps for interactive mapping and marker pinning.
-- Reverse geocoding used to provide address of where the photo was taken or where the marker was added.
+This project is a starting point for a Flutter application.
 
-### Description
+A few resources to get you started if this is your first Flutter project:
 
-This app was built mainly to demonstrate the use of native device features, such as Camera and GPS, as well as the use of Google Maps API. It also uses a SQLite 3 DB for local storage of the pictures and relevant data taken.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-### Screenshots
-
-![alt text](https://github.com/Twistedben/Great-Places/blob/master/screenshots/great_places_list.png "List of places and photos")
-![alt text](https://github.com/Twistedben/Great-Places/blob/master/screenshots/great_places_form.png "New Place form with location, maps and camera")
-![alt text](https://github.com/Twistedben/Great-Places/blob/master/screenshots/great_places_map.png "Google Maps and Marker")
-![alt text](https://github.com/Twistedben/Great-Places/blob/master/screenshots/great_places_show.png "Individual Place")
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
